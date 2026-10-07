@@ -1,0 +1,12 @@
+
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:calc(5rem + env(safe-area-inset-top,0px))}
+body{background:#0a0f1d}
+.gt{background:linear-gradient(135deg,#fef08a,#f59e0b 50%,#d97706);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.glass{background:rgba(17,24,39,.7);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.08)}
+.ic{width:1em;height:1em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;display:inline-block;vertical-align:-.125em}
+.slot{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.5rem;cursor:pointer;overflow:hidden;border-radius:1rem;border:1px dashed rgba(245,158,11,.4);background:linear-gradient(135deg,#1e293b,#0a0f1d);color:rgba(251,191,36,.7);transition:.2s}
+.slot:hover{border-color:#f59e0b;transform:translateY(-2px)}
+.slot img,.slot video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.slot input{display:none}
+.sec{padding:6rem 0}
